@@ -1820,11 +1820,11 @@ nav .right.responsive ul ul li a{
         nav .right.responsive ul ul ul{
           
             margin-left:-9rem;
-            width:150%;
+            width:180%;
         }
         nav .right.responsive ul ul {
           
-            /* margin-left:-9rem; */
+            margin-left:-25rem;
             width:120%;
         }
         
@@ -1870,11 +1870,12 @@ nav .right.responsive ul ul li a{
         margin-top:8rem;
     }
     .about_text .left{
-        width:50%;
+        width:100%;
+        margin-bottom:2rem;
        
     }
     .about_text .left img{
-        width:95%;
+        width:120%;
     }
    
     .about_text .right{
@@ -2238,6 +2239,9 @@ nav .right.responsive ul ul li a{
         margin-left:-0.1rem;
        
     }
+    .content_text i{
+        opacity:0;
+    }
    
 }
 @media only screen and (max-width:400px){
@@ -2264,6 +2268,9 @@ nav .right.responsive ul ul li a{
     }
     .testi_car{
         margin-left:-0.1rem;
+    }
+    .about_text .left img{
+        width:140%;
     }
    
 }
@@ -2710,7 +2717,7 @@ nav .right.responsive ul ul li a{
 
 
 nav .right.responsive ul {
-    margin-top:0px;
+    /* margin-top:0px; */
     z-index:99999;
 }
 .carousel-control-prev,.carousel-control-next{
@@ -2778,7 +2785,8 @@ textarea{
         font-size:18px;
     }
     .bodys{
-        height:530px;
+        height:auto;
+        /* margin-bottom:1rem; */
     }
     nav .right.responsive ul ul{
       
@@ -2934,6 +2942,9 @@ textarea{
         height:auto;
         
     }
+    .cartc{
+        overflow-y:none;
+    }
 }
 @media only screen and (max-width:710px){
     .container-form-signup .right_img{
@@ -3023,6 +3034,9 @@ textarea{
            margin-left:-0.3rem;
            
            
+       }
+       .contact_text .left{
+           padding-left:5%;
        }
    
 }
@@ -3149,13 +3163,7 @@ textarea{
         margin-left:-10rem;
     }
   }
-  @media only screen and (max-width:400px){
-   
-    .total_text h3{
-        position:absolute;
-        right:-80px;
-    }
-  }
+  
   
   @media only screen and (max-width:450px){
    
@@ -3186,10 +3194,7 @@ textarea{
   }
   @media only screen and (max-width:360px){
    
-    .total_text h3{
-        position:absolute;
-        left:280px;
-    }
+   
     nav .right.responsive ul ul ul{
           
         margin-left:-10rem;
@@ -3286,6 +3291,7 @@ textarea{
             .content_text i{
                 opacity:0;
             }
+            
            
         }  
         /* @media only screen and (max-width:1350px){
@@ -3308,3 +3314,50 @@ textarea{
             }
            
         }    
+        @media only screen and (max-width:390px){
+            .about_text h1{
+                font-size:3rem;
+            }
+            
+        }
+        @media only screen and (max-width:430px){
+           .card_info{
+               width:100%;
+               height:205px;
+           }
+           .card-covid{
+               width:40%;
+           }
+        }
+        @media only screen and (max-width:390px){
+            .card_info{
+                width:100%;
+                height:210px;
+            }
+            
+         }
+        @media only screen and (max-width:352px){
+            .card_info{
+                width:100%;
+                height:201px;
+            }
+            
+         }
+         @media only screen and (max-width:400px){
+             .total_text h3{
+                 margin-left:-3rem;
+             }
+             .contact_text .left{
+                padding-left:8%;
+            }
+         }
+         @media only screen and (max-width:370px){
+            .total_text h3{
+                margin-left:-5rem;
+            }
+        }
+        @media only screen and (max-width:340px){
+            .total_text h3{
+                margin-left:-7rem;
+            }
+        }
