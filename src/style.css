@@ -1537,22 +1537,25 @@ margin-right:3rem;
     padding-bottom: 70px;
     /* height:800px; */
     background-color:#e6e6eb;
+    height:auto;
 
 }
 .container{
-    height:70vh;
+    height:auto;
+    overflow:hidden;
 }
+
 .section-header{
     font-size:3rem;
 }
 
 .carousel-item{
-    margin-top:-3rem;
+    /* margin-top:-3rem; */
 }
 .testimonial-view {
     max-width: 900px;
     padding: 0px 15px;
-    margin: 0 auto 70px auto;
+    margin: 0 auto 0px auto;
     border-radius: 3px;
     
 }
@@ -1566,7 +1569,7 @@ margin-right:3rem;
 }
 
 .testimonial-view.top-margin .testimonial-block_user {
-    margin-top: -60px;
+    /* margin-top: -60px; */
 }
 
 @media (min-width: 900px) {
@@ -1679,6 +1682,7 @@ margin-right:3rem;
 .top-margin .testimonial-block .row {
     place-items: normal;
 }
+
 @media only screen and (max-width:1100px){
     .menu_bar{
         display:block;
@@ -1689,6 +1693,7 @@ margin-right:3rem;
        height:63vw;
       
     }
+   
     .otherli{
         margin-right:12rem;
      }
@@ -1752,6 +1757,7 @@ nav .right.responsive ul ul li a{
    
          
 }
+
 /* nav .right.responsive ul ul ul li{
     margin-left:-0.1rem;
     margin-top:1rem;
@@ -1761,6 +1767,22 @@ nav .right.responsive ul ul li a{
     font-size:2rem;
          
 } */
+
+.content{
+    padding-left:20%;
+    height:500px;
+}
+.card_info{
+    height:230px;
+    overflow:hidden;
+    margin-left:-2rem;
+}
+.hidden{
+    float:right;
+   position:absolute;
+   right:3rem;
+   display:block;
+}
 }
 @media only screen and (max-width:750px){
     nav .right.responsive ul ul{
@@ -1857,7 +1879,11 @@ nav .right.responsive ul ul li a{
            width:96%;
     }
     .card_info{
-        height:230px;
+        height:240px;
+        overflow: hidden;
+    }
+    .card{
+        height:240px;
         overflow: hidden;
     }
     .hidden{
@@ -2785,7 +2811,7 @@ textarea{
         font-size:18px;
     }
     .bodys{
-        height:auto;
+        height:400px;
         /* margin-bottom:1rem; */
     }
     nav .right.responsive ul ul{
@@ -2942,9 +2968,7 @@ textarea{
         height:auto;
         
     }
-    .cartc{
-        overflow-y:none;
-    }
+    
 }
 @media only screen and (max-width:710px){
     .container-form-signup .right_img{
@@ -3038,6 +3062,7 @@ textarea{
        .contact_text .left{
            padding-left:5%;
        }
+      
    
 }
 @media only screen and (max-width:820px){
@@ -3219,7 +3244,11 @@ textarea{
   @media only screen and (max-width:765px){
    
     .bodys{
-        height:630px;
+        height:500px;
+
+    }
+    .container{
+        height:400px;
     }
     .testimonial-block_content{
         margin-bottom:5rem;
@@ -3360,4 +3389,31 @@ textarea{
             .total_text h3{
                 margin-left:-7rem;
             }
+        }
+        @media only screen and (max-width:980px){
+            .testimonial-view{
+                height:auto;
+                margin-bottom:-5rem;
+            }
+            .bodys{
+                height:auto;
+            }
+            .container{
+                height:auto;
+            }
+          }
+        @media only screen and (max-width:973px){
+          .testimonial-view{
+              height:auto;
+              margin-bottom:-5rem;
+          }
+          .testimonial-block{
+              margin-bottom:2rem;
+          }
+          .bodys{
+              height:auto;
+          }
+          .container{
+              height:auto;
+          }
         }
